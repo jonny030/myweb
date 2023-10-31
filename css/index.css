@@ -1,0 +1,39 @@
+body {
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.footer{
+    display: block;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.nav-item {
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #7B7DA3;
+}
+
+.nav-item:hover {
+    background-color: #ffc107;
+    transform: scale(1.1);
+}
+
+.image {
+    background-image: url(../images/icon.png);
+    width: 256px;
+    height: 256px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    border: solid 8px #ffc107;
+}
